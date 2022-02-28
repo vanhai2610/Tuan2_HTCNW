@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: auto;
+        }
+
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            background-color: #6667ab;
+        }
+
+        header {
+            height: 100px;
+            width: 1089px;
+            background-color: #c97f6c;
+        }
+
+        nav {
+            height: 50px;
+            width: 1089px;
+            background-color: #989af3;
+        }
+
+        .content {
+            height: 400px;
+            width: 1089px;
+            background-color: #eebb74;
+        }
+
+        Aside {
+            height: 100%;
+            width: 40%;
+            background-color: #b18f6a;
+            float: left;
+        }
+
+        section {
+            height: 100%;
+            width: 60%;
+            background-color: #dd4160;
+            float: right;
+        }
+
+        footer {
+            height: 300px;
+            width: 1089px;
+            background-color: #c97f6c;
+            font-weight: bold;
+            font-style: italic;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #000000;
+            text-align: center ;
+            text-decoration:none;
+        }
+
+        .menu li {
+            width: 200px;
+            height: 50px;
+            float: left;
+            line-height: 50px;
+            list-style: none;
+            text-indent: 15px;
+            position: relative;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .menu li:hover {
+            background-color: #dd4160;
+        }
+
+        li:hover>a {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #eebb74;
+        }
+
+        .menu .submenu {
+            display: none;
+        }
+
+        .menu li:hover>.submenu {
+            display: block;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header></header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICE</a> </li>
+                <li><a href="">CONTACT</a>
+                    <ul class="submenu">
+                        <li><a href="">haido3388@gmail.com</a></li>
+                        <li><a href="">vanhai26102002@gmail.com</a></li>
+                        <li><a href="">20060261.hai@student.iuh.edu.vn</a></li>
+                    </ul>
+                </li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <Aside></Aside>
+            <section></section>
+        </div>
+        <footer>Mọi chi tiết xin liên hệ với tôi ở phần CONTACT!!!
+            <br>Xin chân thành cảm ơn!!!</br>
+        </footer>
+    </div>
+</body>
+
+</html>

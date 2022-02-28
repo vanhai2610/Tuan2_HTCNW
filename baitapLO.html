@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{padding: 0px; margin:auto;}
+        .wrapper{height:800px; width: 1089px; background-color: #6667ab;}
+        nav{
+            height:50px; width: 1089px; background-color: #eebb74;
+        }
+        .menu li{width: 217.8px;height:50px;background-color: #dd4160;float: left;
+            list-style: none; position:relative;
+        }
+        menu li .submenu li{
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li>Trang chủ
+            <ul class="submenu">
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+            </ul>        
+                </li>
+                <li>Thông tin</li>
+                <li>Lưu trữ</li>
+                <li>Hình ảnh</li>
+                <li>Âm nhạc</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
